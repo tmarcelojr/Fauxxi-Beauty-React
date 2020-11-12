@@ -5,23 +5,23 @@ import './index.css';
 
 export default function NavBar() {
 	return (
-		<nav className="navbar navbar-expand-lg static-top" id="wrapper">
+		<nav className="navbar navbar-expand-lg navbar-light static-top" id="wrapper">
 			<div className="container-fluid">
-				<button
-					className="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarResponsive"
-					aria-controls="navbarResponsive"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span className="navbar-toggler-icon" />
-				</button>
+				<div id='logo-container'>
+					<img id='navbar-logo' src={logo} alt="navbar-logo" className="img-fluid"/>
+					<button
+						className="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarResponsive"
+						aria-controls="navbarResponsive"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span className="navbar-toggler-icon" />
+					</button>
+				</div>
 				<div className="collapse navbar-collapse navbar-list" id="navbarResponsive">
-					<div id='logo-container'>
-						<img id='navbar-logo' src={logo} alt="navbar-logo" className="img-fluid"/>
-					</div>
 					<div id='navbar-list-section'>
 						<ul className="navbar-nav">
 							<li 
