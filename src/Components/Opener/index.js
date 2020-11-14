@@ -3,7 +3,6 @@ import logo from '../../Images/gif-logo.gif'
 import './index.css'
 
 export default function Opener(props) {
-	console.log('hi', props)
 
   useEffect(() => {
     let timer = setTimeout(() => {

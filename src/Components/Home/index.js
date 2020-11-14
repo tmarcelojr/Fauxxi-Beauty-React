@@ -2,8 +2,8 @@ import React from 'react';
 import supremefullset from '../../Images/supreme-full-set.jpg';
 import ombremicroshading from '../../Images/ombre-microshading.JPG';
 import glamfullset from '../../Images/glam-full-set.jpg';
-import two from '../../Images/2.jpg';
 import one from '../../Images/1.jpg';
+import two from '../../Images/2.jpg';
 import three from '../../Images/3.jpg';
 import four from '../../Images/4.jpg';
 import five from '../../Images/5.jpg';
@@ -21,7 +21,9 @@ export default function Home() {
 				<div className="text-container">
 					<div id="slogan">
 						<p>Your aesthetics.</p>
-						<p>My expertise.</p>
+						<p>
+							<b>My expertise.</b>
+						</p>
 					</div>
 					<div id="book-now-button">
 						<a href="/services">
@@ -35,9 +37,9 @@ export default function Home() {
 						</a>
 					</div>
 				</div>
-			</div>{' '}
-			{/* image-container */}
-			{/* image-container */}
+			</div>
+
+			{/* {must have container} */}
 			<div className="must-have-container">
 				<div className="section-1">
 					<div className="must-have-image-container">
@@ -114,24 +116,47 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			{/* must-have-container */}
+
+			{/* {quote container} */}
 			<div className="quote-container">'People will stare, make it worth their while.' - H. Winston</div>
-			{/* <div id='raw-beauty-image-container'>
-        <div className='image-section'>
-          <div className='homepage-image'><img src={one} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={two} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={three} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={four} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={five} alt='IG_img'></img></div>
-        </div>
-        <div className='image-section'>
-          <div className='homepage-image'><img src={six} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={seven} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={eight} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={nine} alt='IG_img'></img></div>
-          <div className='homepage-image'><img src={ten} alt='IG_img'></img></div>
-        </div>
-      </div> */}
-		</div> //home-page-container
+			
+			{/* {gallery container} */}
+			<div className="gallery-container">
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={one} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={two} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={three} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={four} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={five} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={six} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={seven} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={eight} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={nine} alt="" />
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<img class="img-fluid img-thumbnail" src={ten} alt="" />
+					</div>
+				</div>
+			</div>
+
+
+		</div>
 	);
 }
