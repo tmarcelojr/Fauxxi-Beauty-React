@@ -1,0 +1,43 @@
+
+.contact-container {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: rgb(0,0,0,.7);
+	padding: 2%;
+  width: 100%;
+  background: linear-gradient(to bottom, #fffcdc, #d9a7c7);
+  background-attachment: fixed;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+#contact-area {
+	background-color: rgb(255, 255, 255, .3);
+  height: 70%;
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  top: 5%;
+}
+
+/* information area */
+#information-area{
+  font-size: 1.5rem;
+}
+
+/* contact button area */
+.send-message-button-container {
+  position: relative;
+  float: right;
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    height: 100%;
+  }
+
+  #information-area, #form-area {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

@@ -122,36 +122,36 @@ export default function Home() {
 			
 			{/* {gallery container} */}
 			<div className="gallery-container">
-				<div class="row">
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={one} alt="" />
+				<div className="row">
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={one} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={two} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={two} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={three} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={three} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={four} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={four} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={five} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={five} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={six} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={six} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={seven} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={seven} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={eight} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={eight} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={nine} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={nine} alt="" />
 					</div>
-					<div class="col-lg-3 col-md-4 col-6">
-						<img class="img-fluid img-thumbnail" src={ten} alt="" />
+					<div className="col-lg-3 col-md-4 col-6">
+						<img className="img-fluid img-thumbnail" src={ten} alt="" />
 					</div>
 				</div>
 			</div>

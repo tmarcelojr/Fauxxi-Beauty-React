@@ -4,6 +4,8 @@ import Opener from './Components/Opener'
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import About from './Components/About';
+import Services from './Components/Services'
+import Contact from './Components/Contact'
 import './App.css';
 
 export default function App() {
@@ -21,11 +23,23 @@ export default function App() {
 				<div>
 					<NavBar />
 					<Switch>
-						<Route exact path="/">
+						<Route exact path='/'>
 							<Home />
 						</Route>
-						<Route exact path="/about">
+						<Route exact path='/about'>
 							<About />
+						</Route>
+						<Route exact path='/services'>
+							<Services />
+						</Route>
+						<Route exact path='/products'>
+							
+						</Route>
+						<Route exact path='/reviews'>
+							
+						</Route>
+						<Route exact path='/contact'>
+							<Contact />
 						</Route>
 					</Switch>
 				</div>

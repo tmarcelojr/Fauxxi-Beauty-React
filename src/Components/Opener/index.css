@@ -23,6 +23,6 @@
 
 @media (max-width: 768px) {
   .opener {
-    background-size: cover;
+    background-image: url('../../Images/mobile-background.png');
   }
 }

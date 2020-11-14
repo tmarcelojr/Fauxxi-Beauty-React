@@ -17,10 +17,13 @@
 }
 
 #logo-container {
+  margin: 20px;
+}
+
+#logo a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
 }
 
 .navbar-list {
@@ -36,10 +39,6 @@
 
 #navbar-logo {
   width: 15%;
-}
-
-.navbar-toggler {
-  transition: .25s ease-in-out;
 }
 
 .navbar-nav {
@@ -99,7 +98,7 @@
     font-size: 3vw;
   }
 
-  #logo-container {
+  #logo-container, #logo a {
     display: flex;
     justify-content: space-between;
   }

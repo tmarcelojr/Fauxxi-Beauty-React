@@ -8,7 +8,11 @@ export default function NavBar() {
 		<nav className="navbar navbar-expand-lg navbar-light static-top" id="wrapper">
 			<div className="container-fluid">
 				<div id='logo-container'>
-					<img id='navbar-logo' src={logo} alt="navbar-logo" className="img-fluid"/>
+					<div id='logo'>
+					<Link to='/'>
+						<img id='navbar-logo' src={logo} alt="navbar-logo" className="img-fluid"/>
+					</Link>
+					</div>
 					<button
 						className="navbar-toggler"
 						type="button"
