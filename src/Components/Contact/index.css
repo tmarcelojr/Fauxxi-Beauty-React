@@ -2,12 +2,7 @@
 .contact-container {
   font-family: 'Pathway Gothic One', sans-serif;
   color: rgb(0,0,0,.7);
-	padding: 2%;
   width: 100%;
-  background: linear-gradient(to bottom, #fffcdc, #d9a7c7);
-  background-attachment: fixed;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 #contact-area {
@@ -22,7 +17,7 @@
 
 /* information area */
 #information-area{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 /* contact button area */

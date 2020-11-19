@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import contactImg from '../../Images/contact-image.jpg'
 import './index.css'
 
 export default function Contact() {
@@ -32,7 +33,9 @@ export default function Contact() {
   }
 
   return (
-    <div className='contact-container' id='contact-wrapper'>
+    <div className='contact-container'>
+			<img src={contactImg} alt="" className="img-fluid"/>
+			<hr styke=/>
 			<div className='container-fluid' id='contact-area'>
 				<div className='row' id='contact-section1'>
 					<div className='col-md-5' id='information-area'>
@@ -41,7 +44,7 @@ export default function Contact() {
 								<iframe
 									title='google-maps'
 									width='100%'
-									height='350'
+									height='300'
 									id='gmap_canvas'
 									src='https://maps.google.com/maps?q=500%20W%20Lanier%20Ave%2C%20Fayetteville%2C%20GA%2030214&t=&z=17&ie=UTF8&iwloc=&output=embed'
 									frameBorder='0'
@@ -82,9 +85,10 @@ export default function Contact() {
 							</p>
 						</div>
 					</div>
+
 					<div className='col-md-7' id='form-area'>
 						<form onSubmit={onSubmit}>
-							<h2>Contact</h2>
+
 							<div className='form-group'>
 								<input
 									type='text'
@@ -132,7 +136,7 @@ export default function Contact() {
                   onChange={e => setValues({...values, message: e.target.value})}
 									className='form-control input-area'
 									placeholder='Enter message here...'
-									style={{ height: '150px' }}
+									style={{ height: '165px' }}
 								/>
 							</div>
 							<div className='form-group' id='contact-button-area'>
