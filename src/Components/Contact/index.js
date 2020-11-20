@@ -7,7 +7,6 @@ export default function Contact() {
   const [successMessage, setSuccessMessage] = useState(false)
 
   const onSubmit = async (e) => {
-		console.log('we in here', process.env.REACT_APP_API_URL)
     e.preventDefault()
     try {
 			const sendMessageRes = await fetch(process.env.REACT_APP_API_URL + '/contact', {
@@ -16,13 +15,14 @@ export default function Contact() {
 				headers: {
 					'Content-Type': 'application/json'
 				}
-			});
-			const sendMessageJson = await sendMessageRes.json();
-			if (sendMessageJson.status === 201) {
-				setSuccessMessage(true);
-				return 'Message sent.';
+			})
+			if (sendMessageRes.status === 200) {
+				console.log('did we make it here')
+				setSuccessMessage(true)
+				setValues({})
+				return 'Message sent.'
 			} else {
-				return 'Message not sent.';
+				return 'Message not sent.'
 			}
 		} catch (err) {
 			console.log(err);
@@ -140,9 +140,9 @@ export default function Contact() {
 								/>
 							</div>
 							<div className='form-group' id='contact-button-area'>
-								<div>{successMessage === true ? 'Message successfully sent.' : null}</div>
+								<div id='success-message'>{successMessage === true ? 'Message successfully sent.' : null}</div>
 
-								<div className='send-message-button-container'>
+								<div className='send-message-container'>
 									<div>
 										<button className='svg-btn' type='submit'>
 											<svg viewBox='0 0 180 60' preserveAspectRatio='none'>

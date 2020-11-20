@@ -36,9 +36,20 @@ header p {
 }
 
 /* contact button area */
-.send-message-button-container {
+#contact-button-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#success-message {
+  font-size: 1.5vw;
+  font-style: italic;
+}
+
+.send-message-container {
   position: relative;
-  float: right;
+  /* float: right; */
 }
 
 @media (max-width: 480px) {
