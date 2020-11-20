@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import contactImg from '../../Images/contact-image.jpg'
 import './index.css'
 
 export default function Contact() {
@@ -8,6 +7,7 @@ export default function Contact() {
   const [successMessage, setSuccessMessage] = useState(false)
 
   const onSubmit = async (e) => {
+		console.log('we in here', process.env.REACT_APP_API_URL)
     e.preventDefault()
     try {
 			const sendMessageRes = await fetch(process.env.REACT_APP_API_URL + '/contact', {
@@ -18,10 +18,7 @@ export default function Contact() {
 				}
 			});
 			const sendMessageJson = await sendMessageRes.json();
-			console.log(sendMessageJson);
-			console.log(typeof sendMessageJson);
 			if (sendMessageJson.status === 201) {
-				console.log('we made it in here');
 				setSuccessMessage(true);
 				return 'Message sent.';
 			} else {
@@ -34,8 +31,11 @@ export default function Contact() {
 
   return (
     <div className='contact-container'>
-			<img src={contactImg} alt="" className="img-fluid"/>
-			<hr styke=/>
+			<header>
+				<h2>Contact me</h2>
+				<p>I'm here to help you shine your light.</p>
+			</header>
+			<hr style={{ width: '80%' }} />
 			<div className='container-fluid' id='contact-area'>
 				<div className='row' id='contact-section1'>
 					<div className='col-md-5' id='information-area'>
@@ -153,7 +153,6 @@ export default function Contact() {
 										</button>
 									</div>
 								</div> {/* send-message-button-container */}
-
 
 							</div>
 						</form>

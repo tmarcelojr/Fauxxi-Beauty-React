@@ -5,6 +5,21 @@
   width: 100%;
 }
 
+header {
+  text-align: center;
+  margin: 2%;
+}
+
+header h2 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
 #contact-area {
 	background-color: rgb(255, 255, 255, .3);
   height: 70%;
