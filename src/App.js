@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Opener from './Components/Opener'
 import NavBar from './Components/NavBar';
+import Footer from './Components/Footer'
 import Home from './Components/Home';
 import About from './Components/About';
 import Services from './Components/Services'
@@ -20,7 +21,7 @@ export default function App() {
       {loaded === false
       ? <Opener loaded={loaded} onChange={handleChange}/>
 			:
-				<div>
+				<div id='app'>
 					<NavBar />
 					<Switch>
 						<Route exact path='/'>
@@ -42,6 +43,7 @@ export default function App() {
 							<Contact />
 						</Route>
 					</Switch>
+					<Footer />
 				</div>
 			}
 		</div>

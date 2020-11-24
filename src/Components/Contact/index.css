@@ -49,7 +49,12 @@ header p {
 
 .send-message-container {
   position: relative;
-  /* float: right; */
+}
+
+@media (max-width: 990px) {
+  .container-fluid {
+    border: 0;
+  }
 }
 
 @media (max-width: 480px) {

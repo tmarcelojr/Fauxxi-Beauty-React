@@ -1,0 +1,34 @@
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+#footer-container .container {
+  width: inherit;
+  height: inherit;
+}
+
+#footer-logo {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.social-links:hover {
+  cursor: pointer;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
+
+#footer-note {
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
