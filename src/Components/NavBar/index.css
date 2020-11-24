@@ -13,10 +13,6 @@
   padding: 0;
 }
 
-#logo-container {
-  margin: 20px;
-}
-
 #logo a {
   display: flex;
   justify-content: center;
@@ -30,7 +26,6 @@
 
 #navbar-list-section {
   width: 100%;
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 

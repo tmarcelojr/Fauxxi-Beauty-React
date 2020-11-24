@@ -1,18 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../Images/gold-logo.png'
 import './index.css';
 
 export default function NavBar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light static-top" id="wrapper">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light" id="wrapper">
 			<div className="container-fluid">
 				<div id='logo-container'>
-					<div id='logo'>
-					<Link to='/'>
-						<img id='navbar-logo' src={logo} alt="navbar-logo" className="img-fluid"/>
-					</Link>
-					</div>
 					<button
 						className="navbar-toggler"
 						type="button"

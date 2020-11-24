@@ -101,9 +101,7 @@ export default function Footer() {
 			</div>
 
 			<div className='bg-light' id='footer-note'>
-
 					<p className='text-muted'>&copy; Copyright 2020, Fauxxi Beauty. All rights reserved.</p>
-
 			</div>
 		</div>
 	);
