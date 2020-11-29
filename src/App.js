@@ -6,6 +6,7 @@ import Footer from './Components/Footer'
 import Home from './Components/Home';
 import About from './Components/About';
 import Services from './Components/Services'
+import Products from './Components/Products'
 import Contact from './Components/Contact'
 import './App.css';
 
@@ -34,7 +35,7 @@ export default function App() {
 							<Services />
 						</Route>
 						<Route exact path='/products'>
-							
+							<Products />
 						</Route>
 						<Route exact path='/reviews'>
 							

@@ -6,7 +6,7 @@ export default function NavBar() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light" id="wrapper">
 			<div className="container-fluid">
-				<div id='logo-container'>
+				<div className='ml-auto' id='logo-container'>
 					<button
 						className="navbar-toggler"
 						type="button"
