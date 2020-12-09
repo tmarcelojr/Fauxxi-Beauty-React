@@ -18,7 +18,7 @@ export default function App() {
 	}
 
 	return (
-		<div>
+		<div id="app">
       {loaded === false
       ? <Opener loaded={loaded} onChange={handleChange}/>
 			:

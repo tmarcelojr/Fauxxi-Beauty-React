@@ -1,6 +1,5 @@
 
 .contact-container {
-  font-family: 'Pathway Gothic One', sans-serif;
   color: rgb(0,0,0,.7);
   width: 100%;
 }
@@ -11,12 +10,12 @@ header {
 }
 
 header h2 {
-  font-size: 2.5rem;
+  font-size: 3vw;
   text-decoration: underline;
 }
 
 header p {
-  font-size: 1.3rem;
+  font-size: 1.3vw;
   font-style: italic;
 }
 
@@ -32,7 +31,7 @@ header p {
 
 /* information area */
 #information-area{
-  font-size: 1.4rem;
+  font-size: 1.3vw;
 }
 
 /* contact button area */
@@ -51,6 +50,10 @@ header p {
   position: relative;
 }
 
+.send-message-container span {
+  font-size: 1.2vw;
+}
+
 @media (max-width: 990px) {
   .container-fluid {
     border: 0;
@@ -64,6 +67,6 @@ header p {
 
   #information-area, #form-area {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1vw;
   }
 }

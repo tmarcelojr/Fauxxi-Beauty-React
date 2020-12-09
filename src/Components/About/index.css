@@ -1,20 +1,39 @@
+.about-me-container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2%;
+  font-size: 1.5vw;
+}
+
+#portrait {
+  width: 20vw;
+  border: 3px solid lightgray;
+}
+
+#about-title {
+  font-size: 2vw;
+  font-style: italic;
+  text-decoration: underline;
+}
+/* FAQ */
+#faq-title {
+  font-size: 2vw;
+  text-decoration: underline;
+}
+
+/* Accordion */
 #aboutAccordion {
-  width: 80%;
+  width: 100%;
 }
 
 .faq {
   color: black;
+  font-size: 1.5vw;
 }
 
-.faq:visited {
-  text-decoration: none;
-}
-
-.faq:hover {
+.faq:hover, .faq:active {
   color: black;
-  text-decoration: none;
-}
-
-.faq:active {
-  color: black
 }

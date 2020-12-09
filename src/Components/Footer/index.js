@@ -16,7 +16,7 @@ export default function Footer() {
 					<div className='col-lg-4 col-md-6 mb-4 mb-lg-0'>
 						<img src={logo} alt='' className='img-fluid' id='footer-logo' />
 						<p className='font-italic text-muted'>
-							I'm here to help you shine your light.
+							Repitition builds competency
 						</p>
 						<ul className='list-inline mt-4 social-links'>
 							<li className='list-inline-item text-muted'>
