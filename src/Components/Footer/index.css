@@ -32,3 +32,13 @@
   text-align: center;
   width: 100%;
 }
+
+@media (max-width: 767px) {
+  #footer-container {
+    font-size: 2.5vw;
+  }
+
+  #footer-logo {
+    width: 20%;
+  }
+}

@@ -17,7 +17,7 @@ export default function NavBar() {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarMenu">
 					<ul className="navbar-nav text-right">
-						<li className="nav-item active">
+						<li className="nav-item">
 							<Link className="nav-link hover-10" to="/">
 								Home
 								<span className="sr-only">(current)</span>

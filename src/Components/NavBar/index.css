@@ -24,9 +24,9 @@
 }
 
 /* MEDIA */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#wrapper {
-		padding: 0 1%;
+		padding: 1%;
 	}
 	
 	#navbarMenu ul {
