@@ -121,7 +121,7 @@ export default function Home() {
 			<div className="quote-container">'People will stare, make it worth their while.' - H. Winston</div>
 			
 			{/* {gallery container} */}
-			<div className="gallery-container">
+			{/* <div className="gallery-container">
 				<div className="row">
 					<div className="col-lg-3 col-md-4 col-6">
 						<img className="img-fluid img-thumbnail" src={one} alt="" />
@@ -154,7 +154,7 @@ export default function Home() {
 						<img className="img-fluid img-thumbnail" src={ten} alt="" />
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 
 		</div>

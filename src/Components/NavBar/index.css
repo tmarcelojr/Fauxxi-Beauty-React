@@ -1,8 +1,49 @@
 /* Navigation bar */
-#navbar-logo {
-	width: 20%;
+
+#logo-container {
+	width: 15%;
+}
+
+#media-logo-container {
+	display: none;
 }
 
 #wrapper {
 	width: 100vw;
+	padding: 0;
+	margin: 0;
+}
+
+#navbarMenu {
+	justify-content: space-around;
+}
+
+#navbarMenu ul {
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* MEDIA */
+@media (max-width: 768px) {
+	#wrapper {
+		padding: 0 1%;
+	}
+	
+	#navbarMenu ul {
+		align-items: flex-end;
+	}
+
+	#logo-container {
+		display: none;
+	}
+
+	#media-logo-container {
+		width: 15%;
+		display: inline;
+	}
+
+	#media-logo-container a {
+		padding: 0;
+	}
+
 }
