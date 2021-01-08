@@ -18,7 +18,7 @@ const Products = () => {
 					<div className='carousel-item active'>
 						<img
 							className='d-block w-100'
-							src='https://storage.googleapis.com/regen-content/image/features/carousel/carousel_jack_frost_betty_snow_regimen.png'
+							src='https://storage.googleapis.com/regen-content/image/banner/banner_portrait_skincare_bootcamp@2x.png'
 							alt='First slide'
 						/>
 					</div>

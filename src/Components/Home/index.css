@@ -120,8 +120,8 @@ html, body {
   justify-content: center;
   margin: 5%
 }
-/* quote container */
 
+/* quote container */
 .quote-container {
   height: 60vh;
   background: #e9ecef;
@@ -155,9 +155,67 @@ html, body {
   transform: scale(1.1);
 }
 
+/* social container */
+#social-title {
+  font-family: 'Playfair Display', serif;
+  padding: 1%;
+  font-size: 3vw;
+  width: 80%;
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40vw;
+}
+
+.social-container div {
+  width: 20vw;
+  height: 20vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.social-container img {
+  height: 170px;
+}
+
+#instagram-container div {
+  margin-top: 10%;
+  width: 80%;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  /* font-size: 2vw; */
+}
+
+#shop-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* media */
 @media (max-width: 1024px) {
   .quote-container {
     height: 30vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .social-container {
+    height: auto;
+    padding: 2%;
+    flex-direction: column;
+  }
+
+  .social-container div {
+    margin: 5%;
   }
 }

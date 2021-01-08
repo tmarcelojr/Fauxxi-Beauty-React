@@ -11,7 +11,7 @@ export default function Opener(props) {
       // Remove ball dom elements from Opener
       let balls = document.querySelectorAll('.ball')
       balls.forEach(ball => ball.remove())
-    }, 3000)
+    }, 1500)
     // clear Timeout
     return () => { clearTimeout(timer) }
 	}, [props])
@@ -43,7 +43,7 @@ export default function Opener(props) {
 			y: Math.random() * 12
 		};
 
-		let anim = el.animate(
+		el.animate(
 			[ { transform: 'translate(0, 0)' }, { transform: `translate(${to.x}rem, ${to.y}rem)` } ],
 			{
 				duration: (Math.random() + 1) * 2000, // random duration

@@ -1,7 +1,7 @@
 /* Navigation bar */
 
 #logo-container {
-	width: 15%;
+	width: 10%;
 }
 
 #media-logo-container {
@@ -19,7 +19,8 @@
 }
 
 #navbarMenu ul {
-	justify-content: space-between;
+	width: 100%;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -27,6 +28,7 @@
 @media (max-width: 767px) {
 	#wrapper {
 		padding: 1%;
+		font-size: 3vw;
 	}
 	
 	#navbarMenu ul {

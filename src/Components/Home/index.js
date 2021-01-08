@@ -2,16 +2,9 @@ import React from 'react';
 import supremefullset from '../../Images/supreme-full-set.jpg';
 import ombremicroshading from '../../Images/ombre-microshading.JPG';
 import glamfullset from '../../Images/glam-full-set.jpg';
-import one from '../../Images/1.jpg';
-import two from '../../Images/2.jpg';
-import three from '../../Images/3.jpg';
-import four from '../../Images/4.jpg';
-import five from '../../Images/5.jpg';
-import six from '../../Images/6.jpg';
-import seven from '../../Images/7.jpg';
-import eight from '../../Images/8.jpg';
-import nine from '../../Images/9.jpg';
-import ten from '../../Images/10.jpg';
+import instagram from '../../Images/1.jpg'
+import facebook from '../../Images/11.jpg'
+import shop from '../../Images/logo.png'
 import './index.css';
 
 export default function Home() {
@@ -120,42 +113,23 @@ export default function Home() {
 			{/* {quote container} */}
 			<div className="quote-container">'People will stare, make it worth their while.' - H. Winston</div>
 			
-			{/* {gallery container} */}
-			{/* <div className="gallery-container">
-				<div className="row">
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={one} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={two} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={three} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={four} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={five} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={six} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={seven} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={eight} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={nine} alt="" />
-					</div>
-					<div className="col-lg-3 col-md-4 col-6">
-						<img className="img-fluid img-thumbnail" src={ten} alt="" />
-					</div>
-				</div>
-			</div> */}
+			{/* {social container} */}
+			<div id='social-title'>Check Us Out!</div>
 
+			<div className="social-container">
+				<div id='instagram-container'>
+					<img src={instagram} alt="" className="img-fluid"/>
+					<div>INSTAGRAM</div>
+				</div>
+				<div id='shop-container'>
+				<img src={shop} alt="" className="img-fluid"/>
+				<div>SHOP</div>
+				</div>
+				<div id='facebook-container'>
+				<img src={facebook} alt="" className="img-fluid"/>
+					<div>FACEBOOK</div>
+				</div>
+			</div>
 
 		</div>
 	);
